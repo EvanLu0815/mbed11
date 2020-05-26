@@ -86,7 +86,7 @@ s.write("abcd\r\n".encode())
 
 line = s.read(5)
 
-print('Get:', line.decode())
+print('Get: ', line.decode())
 
 
 s.close()
